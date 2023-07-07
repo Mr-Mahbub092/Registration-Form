@@ -48,12 +48,12 @@ label> input[type="checkbox"]{
 }
 input[type="submit"]{
   padding:5px 15px;
-  background-color: rgb(16, 170, 62);
-  color:white;
+  background-color:  rgb(189, 74, 160);
+  color:rgb(228, 222, 222);
   border:none;
   border-radius: 5px;
 }
 input[type="submit"]:hover{
-  background-color: white ;
-  color:rgb(20, 22, 21);
+  background-color: #d8d8db;
+  color:rgb(8, 8, 8);
 }
