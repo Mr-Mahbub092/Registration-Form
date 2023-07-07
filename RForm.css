@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+}
+main{
+  background-color: #E6F1FF;
+  font-family: Opes Sans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+section{
+  background-color: #FFFACD;
+  color:#333333;
+  opacity: 0.8;
+  width:300px;
+  padding:15px 25px;
+  box-shadow: -5px 5px 5px black;
+}
+h2{
+  text-align: center;
+  margin-bottom:30px;
+}
+label{
+  display:block;
+  margin-bottom:15px;
+  width:100%;
+  text-align: justify;
+}
+label .fwidth {
+  width:100%;
+  padding:5px 10px;
+}
+label> input[type="checkbox"]{
+  margin-right: 15px;
+}
+.btn-container{
+  display:flex;
+  justify-content: flex-end;
+}
+input[type="submit"]{
+  padding:5px 15px;
+  background-color: rgb(16, 170, 62);
+  color:white;
+  border:none;
+  border-radius: 5px;
+}
+input[type="submit"]:hover{
+  background-color: white ;
+  color:rgb(20, 22, 21);
+}
